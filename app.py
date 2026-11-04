@@ -147,8 +147,8 @@ def welcome_text(user):
         "24HRS RESPONSE 🔥✅\n"
         "EASY TO ACCESS FILES\n\n"
         "JOIN OUR PRIVATE CHANNEL FIRST THEN  "
-        "PRESS TRY AGAIN 🚨\n\n"
-        + IMPORTANT_TEXT
+        "PRESS TRY AGAIN 🚨"
+        
     )
 
 
