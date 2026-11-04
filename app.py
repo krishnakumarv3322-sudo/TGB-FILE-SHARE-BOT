@@ -302,7 +302,10 @@ def run_bot():
         filters.ALL & ~filters.COMMAND, upload_file
     ))
 
-    application.run_polling(drop_pending_updates=True)
+    application.run_polling(
+    drop_pending_updates=True,
+    stop_signals=None
+    )
 
 
 @web.route("/")
